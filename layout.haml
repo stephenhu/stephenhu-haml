@@ -1,0 +1,12 @@
+!!! 5
+%html{:lang => "en"}
+  %head
+    %title stephenhu
+    %link{:rel => "shortcut icon", :href => url("images/favicon.ico")}
+    %link{:rel => "stylesheet", :href => url("bootstrap/css/bootstrap.css")}
+    %link{:rel => "stylesheet", :href => url("styles/stephenhu.css")}
+    %script{:src => url("scripts/stephenhu.js")}
+  %body
+    = yield
+    = haml :navbar 
+
